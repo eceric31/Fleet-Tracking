@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping">
+<!-- Generated Dec 16, 2016 11:49:36 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="myApplicationServer.Data" table="Z_MCI_DATA">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        <property name="tablice" type="java.lang.String">
+            <column name="TABLICE" />
+        </property>
+        <property name="codecID" type="int">
+            <column name="CODEC_ID" />
+        </property>
+        <property name="numberOfData" type="int">
+            <column name="NUMBER_OF_DATA" />
+        </property>
+        <property name="timeStamp" type="java.lang.String">
+            <column name="TIME_STAMP" />
+        </property>
+        <property name="priority" type="int">
+            <column name="PRIORITY" />
+        </property>
+        <property name="longitude" type="double">
+            <column name="LONGITUDE" />
+        </property>
+        <property name="latitude" type="double">
+            <column name="LATITUDE" />
+        </property>
+        <property name="altitude" type="double">
+            <column name="ALTITUDE" />
+        </property>
+        <property name="angle" type="double">
+            <column name="ANGLE" />
+        </property>
+        <property name="satellites" type="int">
+            <column name="SATELLITES" />
+        </property>
+        <property name="speed" type="double">
+            <column name="SPEED" />
+        </property>
+        <property name="dis1" type="java.lang.Integer">
+            <column name="DIS1" />
+        </property>
+        <property name="dis2" type="java.lang.Integer">
+            <column name="DIS2" />
+        </property>
+        <property name="dis3" type="java.lang.Integer">
+            <column name="DIS3" />
+        </property>
+        <property name="analogInput" type="java.lang.Integer">
+            <column name="ANALOG_INPUT" />
+        </property>
+        <property name="gsmLvl" type="java.lang.Integer">
+            <column name="GSM_LVL" />
+        </property>
+        <property name="ioSpeed" type="java.lang.Double">
+            <column name="IO_SPEED" />
+        </property>
+        <property name="epv" type="java.lang.Integer">
+            <column name="EPV" />
+        </property>
+        <property name="gpsPwr" type="java.lang.Integer">
+            <column name="GPS_PWR" />
+        </property>
+        <property name="temperature" type="java.lang.Integer">
+            <column name="TEMPERATURE" />
+        </property>
+        <property name="buttonID" type="java.lang.Long">
+            <column name="BUTTON_ID" />
+        </property>
+        <property name="dataMode" type="java.lang.Integer">
+            <column name="DATA_MODE" />
+        </property>
+        <property name="do1s" type="java.lang.Integer">
+            <column name="DO1S" />
+        </property>
+        <property name="do2s" type="java.lang.Integer">
+            <column name="DO2S" />
+        </property>
+        <property name="pdop" type="java.lang.Integer">
+            <column name="PDOP" />
+        </property>
+        <property name="hdop" type="java.lang.Integer">
+            <column name="HDOP" />
+        </property>
+        <property name="odometer" type="java.lang.Double">
+            <column name="ODOMETER" />
+        </property>
+        <property name="sleep" type="java.lang.Integer">
+            <column name="SLEEP" />
+        </property>
+        <property name="gsmID" type="java.lang.Integer">
+            <column name="GSM_ID" />
+        </property>
+        <property name="areaCode" type="java.lang.Integer">
+            <column name="AREA_CODE" />
+        </property>
+        <property name="movementSensor" type="java.lang.Integer">
+            <column name="MOVEMENT_SENSOR" />
+        </property>
+        <property name="gsmOpCode" type="java.lang.Integer">
+            <column name="GSM_OP_CODE" />
+        </property>
+        <property name="gz1" type="java.lang.Integer">
+            <column name="GZ1" />
+        </property>
+        <property name="gz2" type="java.lang.Integer">
+            <column name="GZ2" />
+        </property>
+        <property name="gz3" type="java.lang.Integer">
+            <column name="GZ3" />
+        </property>
+        <property name="gz4" type="java.lang.Integer">
+            <column name="GZ4" />
+        </property>
+        <property name="gz5" type="java.lang.Integer">
+            <column name="GZ5" />
+        </property>
+        <property name="autoGeof" type="java.lang.Integer">
+            <column name="AUTO_GEOFENCE" />
+        </property>
+        <property name="trip" type="java.lang.Integer">
+            <column name="TRIP" />
+        </property>
+        <property name="immobilizer" type="java.lang.Integer">
+            <column name="IMMOBILIZER" />
+        </property>
+        <property name="authorisedDriving" type="java.lang.Integer">
+            <column name="AUTHORISED_DRIVING" />
+        </property>
+        <property name="gdt" type="java.lang.Integer">
+            <column name="GDT" />
+        </property>
+        <property name="gdv" type="java.lang.Integer">
+            <column name="GDV" />
+        </property>
+        <property name="os" type="java.lang.Integer">
+            <column name="OS" />
+        </property>
+    </class>
+</hibernate-mapping>
